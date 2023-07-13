@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es2018",
+    "lib": ["ES6"],
+    "module": "NodeNext",
+    "rootDir": "./src",
+    "resolveJsonModule": true,
+    "allowJs": true,
+    "sourceMap": true,
+    "outDir": "./backend",
+    "removeComments": true,
+    "strict": true,
+    "noImplicitAny": true,
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "front"],
+  "lib": ["esnext"],
+  "ts-node": {
+    "esm": true
+  }
+}
